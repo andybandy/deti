@@ -1,0 +1,7 @@
+*.swo
+*.swp
+
+js/vendor
+node_modules
+dev
+prod

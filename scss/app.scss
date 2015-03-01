@@ -1,0 +1,39 @@
+#home {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  .header {
+    font-size: 74px;
+    font-weight: 100;
+    color: #554b4b;
+    text-align: center;
+    vertical-align: middle;
+
+    &.big {
+      font-size: 150px;
+      font-weight: 300;
+    }
+  }
+
+  .comment {
+    width: 300px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 100;
+    color: #554b4b;
+    text-align: center;
+
+    &.tiny {
+      font-size: 14px;
+    }
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    height: 52px;
+    width: 100%;
+  }
+}
